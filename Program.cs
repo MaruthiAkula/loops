@@ -45,6 +45,20 @@ namespace loops
             {
                 Console.WriteLine(k);
             }
+             Console.WriteLine("Continue statement :");
+            for(int j = 0; j <= 5; j++)
+            {
+                if (j % 2 == 1)
+                    continue;
+                Console.WriteLine(j);
+            }
+            Console.WriteLine("break statement :");
+            for (int k = 0; k < 5; k++)
+            {
+                if (k == 3)
+                    break;
+                Console.WriteLine(k);
+            }
         }
     }
 }
